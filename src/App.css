@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 .App {
   text-align: center;
 }
@@ -11,6 +12,27 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.name{
+    margin: auto;
+    width: 13%;
+    color: #389e0d;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+    border: 3px solid green;
+    padding: 10px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.table-name{
+    margin: auto;
+    width: 8%;
+    padding: 10px;
+    color: #cf1322;
+    background: #fff1f0;
+    border-color: #ffa39e;
 }
 
 .App-header {
